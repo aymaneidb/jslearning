@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  background-color: red;
+  height: 5%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+#header-img{
+  height: 5%;
+  width: 20%;
+  margin-right: auto;
+}
+nav li{
+  display: inline-block;
+  margin:5px;
+  padding: 10px;
+  font-size: 25px;
+
+  margin-right:50px ;
+}
+
+ul li a{
+  text-decoration: none;
+}
+nav.a{
+margin:10px;
+}
+#form{
+  text-align: center;
+  margin: auto;
+}
+#email{
+width: 30%;
+padding: 10px;
+border-radius: 0.25rem;
+border: 1px solid rgba(0, 0, 0, 0.7);
+margin-bottom:25px ;
+}
+#submit{
+  font-size: larger;
+  background-color: yellow;
+  font-weight: bolder ;
+  padding: 10px;
+  margin-bottom:20px ;
+}
+#hero{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start ;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 60%;
+
+}
+#hero .logo{
+font-size: 2em;
+height: 125px;
+width: 20vw;
+margin: 20px;
+padding: 20px;
+}
+.grid{
+display: flex;
+margin: auto;
+flex: auto;
+flex-direction:row;
+align-items: center;
+align-content: space-between;
+height:20%;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;}
+#videozoutube{
+  margin-top: 30px;
+  display: flex;
+ align-self: auto;
+  justify-content: center;
+
+}
+#container2{
+  margin:  auto;
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  flex-wrap:  wrap;
+  margin-top: 10%;
+}
+#product{
+border:2px solid gray;
+width: 250px;
+display: flex;
+flex-direction: column;
+flex-wrap:  wrap;
+}
+#producttitle{
+  background-color: gray;
+  text-align: center;
+
+}
+#textproduct{
+  text-align: center;
+}
+#select{
+  background-color: yellow;
+  font-size: 25px;
+  font-weight: bold ;
+  margin:auto;
+}
+#kbir{
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+width: 100%;
+  justify-content: center;
+align-items: center;
+margin: auto;
+}

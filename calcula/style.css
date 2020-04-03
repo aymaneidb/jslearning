@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  border: 10px solid black;
+  width: 55vw;
+  height: 68vh;
+  margin: auto;
+  margin-top: 10%;
+  z-index: 1;
+}
+#inputcalcule {
+    display: block;
+  width: 90%;
+  height: 8vh;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-size: 50px;
+}
+#numero {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.number {
+  height: 100px;
+  width: 88px;
+}
+#plus {
+}
+#egale {
+  width: 181px;
+}

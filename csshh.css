@@ -1,0 +1,15 @@
+/* add your CSS here */
+#interesting-fact{
+    font-style: italic;}
+ span{
+   font-weight: bold;}
+ #facts{list-style:none;}
+ #container{
+   border:5px solid black;
+ padding:10px;
+ width:450px;}
+ .animal-info{
+   border:2px solid black;
+ margin:20px;
+ padding:5px;
+ }

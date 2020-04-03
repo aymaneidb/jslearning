@@ -1,0 +1,103 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: url(https://tinyurl.com/webt6sm);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  #box {
+    background-color: rgba(255, 255, 255, 0.4);
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+  }
+  #container {
+    margin: auto;
+    max-width: 800px;
+    max-height: 5500px;
+    position: relative;
+    margin-top: 5%;
+  }
+  #form {
+    background-color: #272746;
+    padding: 5%;
+    height: ;
+  }
+  #text {
+    text-align: center;
+  }
+  .form-groupe {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items:  stretch;
+    align-content: space-between;
+  }
+  #form {
+    color: white;
+  }
+  #name-label {
+    margin: 10px;
+    margin-left: 0px;
+  }
+  .form-control {
+      display: block;
+      width: 100%;
+      height: 1.5rem ;
+      color: #495057;
+      background-color: #fff;
+      border: 1px solid #ced4da;
+      border-radius: 0.25rem;
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  #email-label {
+    margin: 10px;
+    margin-left: 0px;
+  }
+  #number-label {
+    margin: 10px;
+    margin-left: 0px;
+  }
+  
+  .dropdowne{
+      margin: 10px;
+    margin-left: 0px;
+  }
+  
+  #dropdown,#submit{
+      display: block;
+    width: 100%;
+    padding: 0.4rem ;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  .choix ,.choix2{
+      margin-bottom: 20px;
+  }
+  #text1{    margin-bottom: 30px;
+  
+  }
+  #text2{
+      margin-bottom: 30px;
+  }
+  textarea{
+      height: 100px;
+      font-size: 20px;
+  }
+  #submit{
+      background-color: green;
+      color: white;
+      height: 45px;
+  }
+  #submit:hover{
+      background-color: yellow;
+      color: black;
+      font-size: larger;
+  }

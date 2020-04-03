@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/nav/nav.css" />
+  </head>
+  <body>
+    <nav>
+      <div id="contenaire">
+        <div class="lignediv"></div>
+        <div class="lignediv"></div>
+        <div class="lignediv"></div>
+      </div>
+      <div id="nav1">
+        <ul>
+          <li class="navelement"><a href="#">About</a></li>
+          <li class="navelement"><a href="#">Contact</a></li>
+          <li class="navelement"><a href="#">Projects </a></li>
+        </ul>
+      </div>
+    </nav>
+    <section>
+      <img
+        src="https://www.diiiz.com/8435-thickbox_default/portmanteau-mural-en-bois-dots.jpg"/>
+      <h1>Dots</h1>
+    </section>
+    <script>
+
+    function titleCase(str) {
+      var arr=str.split(" ");
+      for(var i=0;i<arr.length;i++){
+        arr[i].toLowerCase();
+        arr[i][0].toUpperCase();
+      }
+      var naw=arr.join(" ");
+      return naw;
+    }
+    
+    titleCase("I'm a little tea pot");
+    
+    </script>
+  </body>
+</html>

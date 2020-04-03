@@ -1,0 +1,30 @@
+.contenaire {
+    height: 700px;
+  border: 10px solid yellow;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+/*align-content: center; */ 
+  
+  align-items: center;
+}
+.flexitem {
+  width: 200px;
+  margin: 10px;
+  border: 2px solid black;
+  background: magenta;
+}
+
+.flex1 {
+  min-height: 100px;
+  
+}
+
+.flex2 {
+  min-height: 200px;
+  
+}
+.flex3 {
+  min-height: 300px;
+  
+}

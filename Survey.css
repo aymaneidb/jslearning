@@ -1,0 +1,44 @@
+body{
+  background: url(https://uploads-ssl.webflow.com/5c669b172f71d63c5feafcd0/5ce6a73817fb0ab67f4b5555_16.BusinessModel-min.jpg);
+  position: absolute;
+background-size: cover;
+}
+img{
+}
+#background{
+  background-color: rgba(173, 168, 238, 0.7);
+  position: relative;
+  top: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+
+}
+#main {
+  border: 2px black solid;
+  max-width: 700px;
+  background-color: aliceblue;
+  margin: 5% auto 10% auto;
+  position: relative;
+  max-height: 1200px;
+}
+#title {
+  text-align: center;
+  padding-top: 5%;
+  font-weight: 400;
+  line-height: 1.2;
+  font-family: "Poppins", sans-serif;
+}
+#description{
+text-align: center;
+}
+#survey-form{
+  padding: 4%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  align-items: flex-start;
+ 
+  
+}
